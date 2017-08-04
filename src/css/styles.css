@@ -1,0 +1,21 @@
+@import './sizing.css';
+@import './colors.css';
+
+.button {
+    width: 200px;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid;
+	cursor: pointer;
+}
+
+a {
+	color: initial;
+}
+
+body {
+}
+
+* {
+	box-sizing: border-box;
+}

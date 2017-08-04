@@ -15,7 +15,7 @@ module.exports = {
 		path: path.join(__dirname, '../build'),
 		pathinfo: true,
 		filename: 'static/js/[name].[chunkhash:8].js',
-		publicPath: '/',
+		publicPath: '',
 	},
 	resolve: {
 		extensions: ['.js', '.json', '.jsx', '.tsx', '.ts'],

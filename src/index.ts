@@ -1,3 +1,5 @@
 import './css/reset.css'
 import './css/container.css'
+import './css/form.css'
 import './css/text.css'
+import './css/styles.css'

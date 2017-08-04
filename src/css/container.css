@@ -28,9 +28,9 @@ div.grid {
 div.vertical { flex-direction: column; }
 div.horizontal { flex-direction: row; }
 
-div.align-left { align-items: flex-start; }
+div.align-start { align-items: flex-start; }
 div.align-center { align-items: center; }
-div.align-right  { align-items: flex-end; }
+div.align-end { align-items: flex-end; }
 
 div.justify-center { justify-content: center; }
 div.justify-end { justify-content: flex-end; }
@@ -196,4 +196,30 @@ div.flex-basis {
 	div.hide-desktop {
 		display: none;
 	}
+}
+
+div.grid {
+	width: calc(100% + 2rem);
+	margin-left: -1rem;
+}
+
+div.square {
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: black;
+}
+
+div.square:before {
+    content: "";
+    float: left;
+    padding-top: 100%;
+}
+
+div.opacity-2 {
+	background: rgba(0, 0, 0, 0.2);
+}
+div.opacity-4 {
+	background: rgba(0, 0, 0, 0.4);
 }
